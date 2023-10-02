@@ -1,0 +1,93 @@
+@media (min-width:576px) {
+   
+}
+@media (min-width:768px) {
+   .connection{
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
+    .connectionscontent{
+        flex-basis: 60%;
+        padding-right: 2rem;
+    }
+    .connectionsbanner{
+        flex-basis: 40%;
+    }
+
+    .connection::before{
+        width: auto;
+        height: auto;
+        top: -5rem;
+        left: -40rem;
+        background-size: auto;
+        background-position: center left;
+    }
+   }
+   
+
+@media (min-width:992px) {
+    .mobilenavmenu, .navbtn{
+        display: none;
+    }
+    .desktopmenu{
+        display: flex;
+    }
+    .desktopnavlinks{
+        display: block;
+    }
+    .connectionscontent{
+        padding-right: -4rem;
+    }
+
+    .connection::before{
+        top: -10rem;
+        left: -30rem;
+    }
+    .footerapp{
+        display: block;
+    }
+    .footerappmobile{
+        display: none;
+    }
+    .footerwrap{
+        display: flex;
+    }
+    .footerleft{
+        max-width: 50rem;
+    }
+    .footerscroll{
+        left: auto;
+    }
+   
+}
+@media (min-width:1200px) {
+    .connection{
+        justify-content: space-between;
+    }
+    .connectionscontent{
+        flex-basis: auto;
+        width: 60rem;
+    }
+    .connectionsbanner{
+        flex-basis: auto;
+        width: 42rem;
+    }
+    .connection::before{
+        left: -15rem;
+        top: -15rem;
+    }
+    .footercolumn{
+        margin-bottom: 0;
+        margin-left: 2rem;
+    }
+    .footerwrap{
+        justify-content: space-between;
+        
+    }
+}
+@media (min-width:1400px) {
+    .connection{
+        padding: 3rem 6rem;
+    }
+}
